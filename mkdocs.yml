@@ -1,0 +1,57 @@
+site_name: PC001 - Web Development 
+theme:
+  name: material
+  features:
+   - navigation.tabs
+   - navigation.sections
+   - toc.integrate
+   - navigation.top
+   - search.suggest
+   - search.highlight
+   - content.tabs.link
+   - content.code.annotation
+   - content.code.copy
+  language: en
+  extra_css:
+   - custom.css
+  extra:
+   logo:
+    href: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNCyK1aPBvnM7i34FkQdl4a9iY3bHnk_r-XQpIBjQxdw&s'
+  palette:
+   - scheme: default
+     toggle:
+      icon: material/toggle-switch-off-outline 
+      name: Switch to dark mode
+     primary: Royalblueue
+     accent: purple 
+   - scheme: slate 
+     toggle:
+      icon: material/toggle-switch
+      name: Switch to light mode   
+     primary: Royalblue
+     accent: lime
+
+markdown_extensions:
+ - mdx_gh_links
+ - pymdownx.highlight:
+    anchor_linenums: true
+ - pymdownx.inlinehilite
+ - pymdownx.snippets
+ - admonition
+ - pymdownx.arithmatex:
+    generic: true
+ - footnotes
+ - pymdownx.details
+ - pymdownx.superfences
+ - pymdownx.mark
+ - attr_list
+ - pymdownx.emoji:
+    emoji_index: !!python/name:material.extensions.emoji.twemoji
+    emoji_generator: !!python/name:materialx.emoji.to_svg
+
+
+copyright: |
+ &copy; 2024 <a href="https://github.com/zouhour-guiras"  target="_blank" rel="noopener">Zouhour Guiras</a>
+
+
+ 
